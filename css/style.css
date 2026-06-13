@@ -1,0 +1,41 @@
+header{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    font-family: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+
+
+}
+h1{
+    text-align: center;
+    font-family: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif;
+}
+h3{
+    text-align: center;
+    font-family: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif;
+}
+a{
+    text-align: center;
+    justify-content: center;
+    
+}
+nav a{
+    display: inline-block;
+    gap: 20px;
+    text-decoration: none;
+    justify-content: center;
+    color: black;
+    background-color: white;
+    border: 5px solid black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif;
+}
+main{
+    background-color: white;
+    color: black;
+    font-family: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif;
+}
