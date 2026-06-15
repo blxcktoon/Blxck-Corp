@@ -1,13 +1,32 @@
+body{
+    background: linear-gradient(45deg, Silver, Off-white);
+    background-size: 400% 400%;
+    animation: gradientShift 20s ease infinite;
+    min-height: 100vh;
+}
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+
+    
+}
 header{
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     padding: 20px;
     font-family: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif;
     align-items: center;
     justify-content: center;
     align-items: center;
+    border: 5px solid black;
+    border-radius: 10px;
 
 
+}
+p{
+    text-align: left;
+    font-family: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif;
 }
 h1{
     text-align: center;
@@ -27,15 +46,33 @@ nav a{
     gap: 20px;
     text-decoration: none;
     justify-content: center;
-    color: black;
-    background-color: white;
-    border: 5px solid black;
+    color: white;
+    background-color: black;
+    border: 5px solid white;
     padding: 5px 10px;
     border-radius: 5px;
     font-family: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif;
 }
 main{
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     font-family: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif;
+    border: 5px solid white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.image{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    justify-content: center;
+    font-family: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
 }
