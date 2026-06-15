@@ -98,6 +98,55 @@ header nav button a:hover {
     color: #6f058a;
 }
 
+/*This is a section for styling minor attributes... */
+.founder_name strong {
+    color: whitesmoke;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    font-size: 2rem;
+    text-decoration: underline;
+    color : transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to right, #fff, #798788);
+
+}
+
+.founder_name strong:hover {
+    color: cyan;
+    text-shadow: 0px 1px 4px whitesmoke;
+
+}
+
+.founder h3, .philosophy h3 {
+    font-size: 2rem;
+    text-decoration: underline;
+    color : transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to right, #fff, #470063);
+
+}
+
+.founder .intro_content p {
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 1.5rem;
+
+    display: flex;
+    align-items: flex;
+    flex-direction: column;
+}
+
+.founder .intro_content .founder_name {
+    display: flex;
+    align-items: flex-end;
+}
+
 
 main{
     background-color: black;
@@ -119,6 +168,7 @@ img {
     border: none;
     border-radius: 10px;
 }
+
 .content{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -126,4 +176,24 @@ img {
     align-items: center;
     justify-content: center;
 
+}
+
+.philosophy .image {
+    border: 2px solid transparent;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 15px;
+
+    box-shadow: 0px 1px 10px rgb(106, 33, 139);
+
+}
+
+.philosophy .image img {
+    border: 1px solid rgb(106, 33, 139);
+    width: 18rem ;
+    height: 18rem;
+    margin: 0px;
+
+    border-radius: 15px;
 }
