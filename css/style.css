@@ -190,6 +190,10 @@ img {
         height: auto;
         display:block
     }
+.philosophy{
+    display: block;
+    align-items: center;
+    justify-content: center;
 
-
+}
 }
